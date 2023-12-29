@@ -1,10 +1,10 @@
 @font-face {
     font-family: nb;
-    src: url('./NBInternationalProBoo.ttf');
+    src: url('./assets/NBInternationalProBoo.ttf');
 }
 @font-face {
     font-family: rj;
-    src: url('./Rejouice-Headline.ttf');
+    src: url('./assets/Rejouice-Headline.ttf');
 }
 
 * {
@@ -157,7 +157,7 @@ nav>h3{
     display:flex;
     align-items: center;
     justify-content: space-between;
-    background-color: red;
+    background-color: white;
     margin-top:8vw;
 }
 
@@ -165,5 +165,11 @@ nav>h3{
     height: 100%;
     width:32.5%;
     background-color: blue;
+}
 
+.page3Elem>.box>video{
+    height:100%;
+    width:100%;
+    object-fit: cover;
+    object-position: center;
 }
