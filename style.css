@@ -157,14 +157,13 @@ nav>h3{
     display:flex;
     align-items: center;
     justify-content: space-between;
-    background-color: white;
     margin-top:8vw;
 }
 
 .page3Elem>.box{
     height: 100%;
     width:32.5%;
-    background-color: blue;
+    position: relative;
 }
 
 .page3Elem>.box>video{
@@ -172,4 +171,16 @@ nav>h3{
     width:100%;
     object-fit: cover;
     object-position: center;
+}
+
+.page3Elem>.box>img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: all ease 0.8s;
+}
+
+.page3Elem>.box:hover> img{
+    opacity:0;
 }
