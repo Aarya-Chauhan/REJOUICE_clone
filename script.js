@@ -75,4 +75,22 @@ function page2Animation(){
 }
 page2Animation()
 
+function page4Animation(){
+    gsap.from(".elem2 h1",{
+        y:20,
+        stagger:0.2,
+        duration:1,
+        scrollTrigger:{
+            trigger:'.page2',
+            scroller:".main",
+            start:"top 40%",
+            end:"top 37%",
+            scrub:2
+
+        }
+    })
+    
+}
+page4Animation()
+
 
