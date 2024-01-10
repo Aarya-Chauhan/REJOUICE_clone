@@ -288,10 +288,14 @@ nav>h3{
 }
 
 .page7{
-    height:100vh;
+    display: flex;
+    font-size: xx-large;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-height:100vh;
     width: 100%;
     padding: 1vw 0;
-    position:relative;
 }
 
 .page7>.page7Top>h1{
@@ -301,17 +305,14 @@ nav>h3{
     padding-bottom: 10px;
     border-bottom: 1px black solid;
     width:99%;
-    z-index: 0;
     margin-left: 10px;
     
 }
 
 .swiperdiv{
-    min-height: 60vh;
+    min-height: 50vh;
     width: 100%;
     margin-left:10px;
-    position:relative;
-    z-index: 2;
 }
 
 .image{
@@ -319,17 +320,7 @@ nav>h3{
     width: 19.5%;
 }
 
-.page7Bottom{
-    width: 100%;
-    padding-left: auto;
-    padding-right: auto
+.page7>.page7bottom{
+    margin: 10rem ;
 }
 
-.page7Bottom>h4{
-    font-size:100px;
-}
-
-.page7Bottom>h2{
-    font-size: 4vw;
-    font-weight: 500;
-}
