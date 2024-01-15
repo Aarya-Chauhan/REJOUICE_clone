@@ -325,13 +325,10 @@ nav>h3{
 }
 
 .page8{
-    /* display: flex;
-    flex-wrap: nowrap; */
     justify-content: space-between;
     height: 100vh;
-    background-color: rgb(0, 0, 0);
-    color: aliceblue;
-    font-family: rj;   
+    background-color: rgba(0, 0, 0, 0.938);
+    color:#dadada;
 }
 
 .page8>.top{
@@ -339,7 +336,7 @@ nav>h3{
     margin: 0;
     flex-wrap: wrap;
     justify-content: space-between;
-    height: 50%;
+    height: 40%;
     padding: 30px 30px;
 }
 
@@ -347,9 +344,48 @@ nav>h3{
     display: flex;
 }
 
+.page8>.top>.left>h1{
+    font-family: nb;
+    font-weight: 100;
+    font-size: x-large;
+}
+
+.page8>.top>.left>button{
+    margin:20px 0;
+    padding: 20px;
+    font-size: large;
+    color: #dadada;
+    background-color: rgba(0, 0, 0, 0.938);
+    border:#dadada solid 1px;
+    border-radius: 10px;
+}
+
+.page8>.top>.left>button:hover{
+    transition: linear 0.3s;
+    background-color: #dadada;
+}
+
+.page8>.top>.left>button>a:hover{
+    color: rgba(0, 0, 0, 0.938) ;
+}
+
+.page8>.top>.left>button>a{
+    text-decoration: none;
+    color: white;
+    font-family: nb;
+    font-weight: 200;
+}
+
 .page8>.top>.right>ul{
-    padding-left: 8vw;
+    padding-left: 7vw;
+    list-style-type: none;
     margin:0;
+}
+
+.page8>.top>.right>ul>li{
+    font-family: nb;
+    font-size: 2.3vh;
+    text-decoration: none;
 }
 
 .page8>.bottom{
@@ -362,19 +398,41 @@ nav>h3{
 
 .page8>.bottom>.top2{
     display: flex;
+    font-weight: 100;
     flex-wrap: wrap;
     margin: 0;
 }
 
+.page8>.bottom>.top1>h3{
+    font-family: nb;
+    font-size: large;
+    font-weight: 100;
+}
+
 .page8>.bottom>.top2>h3{
-    padding-left: 8vw;
+    font-family: nb;
+    font-size: large;
+    font-weight: 100;
+    padding-left: 6vw;
+    
 }
 
 .page8>.final{
-    height: 40%;
-    display: flex;
+    height: 50%;
     align-items: center;
-    justify-content: center;
-    padding-left: auto;
-    padding-right: auto;
+    display: flex;
+    justify-content:center;  
+}
+
+.page8>.final>h1{
+    font-size: 25vw;
+    font-weight: 100;
+    line-height: 40vh;
+    padding-bottom: 10px;
+}
+
+.page8>.final>h1>span{
+    font-family: rj;
+    font-weight: 500;
+    padding:10px;
 }
