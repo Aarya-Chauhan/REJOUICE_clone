@@ -325,9 +325,56 @@ nav>h3{
 }
 
 .page8{
+    /* display: flex;
+    flex-wrap: nowrap; */
+    justify-content: space-between;
     height: 100vh;
     background-color: rgb(0, 0, 0);
     color: aliceblue;
-    font-family: rj;
-    
+    font-family: rj;   
+}
+
+.page8>.top{
+    display: flex;
+    margin: 0;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 50%;
+    padding: 30px 30px;
+}
+
+.page8>.top>.right{
+    display: flex;
+}
+
+.page8>.top>.right>ul{
+    padding-left: 8vw;
+    margin:0;
+}
+
+.page8>.bottom{
+    padding: 30px;
+    margin: 0;
+    display: flex;
+    height: 10%;
+    justify-content: space-between;
+}
+
+.page8>.bottom>.top2{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+.page8>.bottom>.top2>h3{
+    padding-left: 8vw;
+}
+
+.page8>.final{
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: auto;
+    padding-right: auto;
 }
