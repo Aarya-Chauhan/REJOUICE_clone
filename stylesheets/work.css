@@ -1,0 +1,13 @@
+@font-face {
+    font-family: nb;
+    src: url('./assets/NBInternationalProBoo.ttf');
+}
+@font-face {
+    font-family: rj;
+    src: url('./assets/Rejouice-Headline.ttf');
+}
+
+html,body{
+    height: 100%;
+    width:100%;
+}
